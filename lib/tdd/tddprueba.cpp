@@ -9,7 +9,7 @@
  * @details
  *
  */
-#include "lib/tdd/tddprueba.h"
+#include "tddprueba.h"
 
 /**
  * @brief TDDPrueba::TDDPrueba Constructor por defecto.

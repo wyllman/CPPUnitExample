@@ -29,8 +29,10 @@
 #ifndef TDDPRUEBA_H
 #define TDDPRUEBA_H
 
-#if TESTCHECKING
-   #include "../test/tdd/tddprueba_spec.h"
+#include "../globalConf.h"
+
+#if TEST_CHECKING
+   #include "../../test/tdd/tddprueba_spec.h"
 #endif
 
 /**
@@ -46,8 +48,8 @@ class TDDPrueba {
       int ultimoRes;
       int sumar(int, int);
 
-#if TESTCHECKING
-      friend class tddprueba_spec;
+#if TEST_CHECKING
+      friend class tddpruebaSpec;
 #endif
 };
 

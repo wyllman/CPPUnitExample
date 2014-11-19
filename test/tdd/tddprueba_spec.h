@@ -1,9 +1,9 @@
 /**
- * @file tddprueba_spec.h
+ * @file    tddprueba_spec.h
  * @author  Wyllman <wyllman@gmail.com>
  * @version 0.0.1
- * @date   Noviembre, 2014
- * @brief Expectativas para la clase TDDPrueba
+ * @date    Noviembre, 2014
+ * @brief   Expectativas para la clase TDDPrueba
  *
  * @section DESCRIPTION
  * @details
@@ -15,9 +15,13 @@
 #include <cppunit/TestCase.h>
 #include "../../lib/tdd/tddprueba.h"
 
-class tddprueba_spec: public CppUnit::TestCase {
+/**
+ * @class tddprueba_spec
+ * @brief The tddprueba_spec class
+ */
+class tddpruebaSpec: public CppUnit::TestCase {
    public:
-      tddprueba_spec();
+      tddpruebaSpec();
 
    private:
       void runTest ();

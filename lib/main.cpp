@@ -47,7 +47,7 @@ int main(int argc, char *argv[]) {
     cout << "Iniciando test..." << endl;
 
     CppUnit::TextUi::TestRunner runner; /* Crear el objeto de CppUnit que ejecutará las pruebas */
-    runner.addTest(new tddprueba_spec ());
+    runner.addTest(new tddpruebaSpec ());
     runner.addTest(Segunda_spec::suite());
     runner.run();
 #else
