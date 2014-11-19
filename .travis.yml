@@ -9,5 +9,7 @@ script:
   - qmake -project
   - qmake CPPUnitTesting.pro
   - make
+  - pwd
+  - ls -la
   - ./$TRAVIS_BUILD_DIR/CPPUnitTesting
 
