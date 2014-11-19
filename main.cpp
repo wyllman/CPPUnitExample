@@ -1,4 +1,7 @@
-//#include <QCoreApplication>
+/*
+ *
+ *
+ */
 #include "globalConf.h"
 
 #if TEST_CHECKING
@@ -16,8 +19,6 @@
 using namespace std;
 
 int main(int argc, char *argv[]) {
-    //QCoreApplication a(argc, argv); <-QT default adding
-    
     cout << "Hola" << endl;
 
 #if TEST_CHECKING
@@ -30,6 +31,5 @@ int main(int argc, char *argv[]) {
    cout << "Sin modo testeo." << endl;
 #endif
 
-
-    return 0; //a.exec(); <-QT default adding
+    return 0;
 }
