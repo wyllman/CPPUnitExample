@@ -2,19 +2,19 @@
 
 TravisCi: [![Build Status](https://travis-ci.org/wyllman/CPPUnitExample.svg?branch=master)](https://travis-ci.org/wyllman/CPPUnitExample)
 
-CPPUnitExample
+#CPPUnitExample
 ==============
 
 #### Ejemplo del uso de la metodología TDD usando C++ y las librerías CppUnit.
 
-Descripción de funcionalidades y clases
+##Descripción de funcionalidades y clases
 ---------------
 - Clases:
   - [TDDPrueba](http://wyllman.github.io/CPPUnitExample/doc/html/class_t_d_d_prueba.html): ...
 
   - [Segunda](http://wyllman.github.io/CPPUnitExample/doc/html/class_segunda.html): ...
 
-Librerías CppUnit
+##Librerías CppUnit
 ---------------
 
 Puedes encontrar las librerías CppUnit en: <br>
@@ -27,7 +27,7 @@ comando instalación en entornos linux:<br>
 
     sudo apt-get install libcppunit-dev
 
-Compilación usando QT (Sin el uso de Qt Creator)
+##Compilación usando QT (Sin el uso de Qt Creator)
 ------------------------------------------------
 
 Instalación del compilador en entornos linux:<br>
@@ -40,7 +40,7 @@ Compilación del proyecto .pro: <br>
     qmake CPPUnitTesting.pro
     make
 
-Contenidos adicionales
+##Contenidos adicionales
 ----------------------
 Archivo de configuración del proyecto para [Qt Creator](https://qt-project.org/) "CPPUnitTesting.pro" <br>
 Archivo de configuración para la generación automática de documentación usando [DoxyGen](http://www.doxygen.org/) <br>

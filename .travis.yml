@@ -11,5 +11,5 @@ script:
   - make
   - pwd
   - ls -la
-  - ./$TRAVIS_BUILD_DIR/CPPUnitTesting
+  - ./CPPUnitTesting
 
