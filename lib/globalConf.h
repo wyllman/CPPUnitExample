@@ -7,6 +7,6 @@
  *
  * Poner a false para desactivar las pruebas unitarias.
  */
-#define TEST_CHECKING false
+#define TEST_CHECKING true
 
 #endif // GLOBALCONF_H

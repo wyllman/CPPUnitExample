@@ -2,7 +2,7 @@
 #define TDDPRUEBA_SPEC_H
 
 #include <cppunit/TestCase.h>
-#include "../lib/tddprueba.h"
+#include "../lib/tdd/tddprueba.h"
 
 class tddprueba_spec: public CppUnit::TestCase {
    public:

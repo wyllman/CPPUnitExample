@@ -5,7 +5,7 @@
 #include <cppunit/TestAssert.h>
 #include <cppunit/TestCaller.h>
 #include <cppunit/TestSuite.h>
-#include "../lib/segunda.h"
+#include "../lib/tdd/segunda.h"
 
 
 class Segunda_spec: public CppUnit::TestFixture {

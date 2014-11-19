@@ -14,18 +14,16 @@ CONFIG   -= app_bundle
 
 TEMPLATE = app
 
-HEADERS += lib/tddprueba.h \
+HEADERS += lib/tdd/tddprueba.h \
            test/tddprueba_spec.h \
-           lib/segunda.h \
+           lib/tdd/segunda.h \
            test/segunda_spec.h \
-    lib/nuevas/otramas.h \
-    globalConf.h
+           lib/globalConf.h
 
-SOURCES += main.cpp\
-           lib/tddprueba.cpp \
+SOURCES += lib/main.cpp\
+           lib/tdd/tddprueba.cpp \
            test/tddprueba_spec.cpp \
-           lib/segunda.cpp \
+           lib/tdd/segunda.cpp \
            test/segunda_spec.cpp \
-    lib/nuevas/otramas.cpp
 
 unix|win32: LIBS += -lcppunit
