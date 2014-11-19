@@ -24,4 +24,4 @@ Archivo de configuración del proyecto para [Qt Creator](https://qt-project.org/
 Archivo de configuración para la generación automática de documentación usando [DoxyGen](http://www.doxygen.org/) <br>
 Archivo adicional de configuración de atributos globales del proyecto  [lib/globalConf.h](http://wyllman.github.io/CPPUnitExample/doc/html/global_conf_8h.html)<br>
 Documentación generada por DoxyGen(html) en la carpeta: [doc/html/index.html](http://wyllman.github.io/CPPUnitExample/doc/html/index.html)
-
+Integración con Travis Ci usando el archivo ".travis.yml"
