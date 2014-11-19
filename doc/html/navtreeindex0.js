@@ -1,0 +1,20 @@
+var NAVTREEINDEX0 =
+{
+"annotated.html":[0,0],
+"class_otra_mas.html":[0,0,0],
+"class_otra_mas.html#a5c85fcbbfe20a974fb56f0b376ac0168":[0,0,0,0],
+"class_segunda.html":[0,0,1],
+"class_segunda.html#ac5996bbed87ce7619e18c7cbc7c4fe9f":[0,0,1,0],
+"class_t_d_d_prueba.html":[0,0,2],
+"class_t_d_d_prueba.html#a8ff2aa28eff38fde8ba23ebecc18c455":[0,0,2,0],
+"class_t_d_d_prueba.html#aaa2c3c0342544285627f6b70468f8407":[0,0,2,1],
+"classes.html":[0,1],
+"dir_97aefd0d527b934f1d99a682da8fe6a9.html":[1,0,0],
+"dir_f6482fa6705fa6ea9b5d3c403833fc0d.html":[1,0,0,0],
+"files.html":[1,0],
+"index.html":[],
+"otramas_8h_source.html":[1,0,0,0,0],
+"pages.html":[],
+"segunda_8h_source.html":[1,0,0,1],
+"tddprueba_8h_source.html":[1,0,0,2]
+};

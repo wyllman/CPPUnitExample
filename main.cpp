@@ -1,5 +1,17 @@
-/*
+/**
+ * @file main.cpp
+ * @author  Wyllman <wyllman@gmail.com>
+ * @version 0.0.1
  *
+ * @section LICENSE
+ *
+ * @section DESCRIPTION
+ *
+ * Programa de ejemplo en c++ para el uso de la metodología TDD,
+ * usando las librerías CppUnit.
+ *
+ * Archivo principal de ejecución, encargado de ejecutar las
+ * pruebas (según la configuración del archivo globalConf.h)
  *
  */
 #include "globalConf.h"
