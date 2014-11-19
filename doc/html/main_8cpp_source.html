@@ -46,6 +46,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
       <li><a href="annotated.html"><span>Clases</span></a></li>
       <li class="current"><a href="files.html"><span>Archivos</span></a></li>
       <li>
@@ -113,7 +114,7 @@ $(document).ready(function(){initNavTree('main_8cpp_source.html','');});
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">   #include &lt;cppunit/TestSuite.h&gt;</span></div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">   #include &lt;cppunit/Test.h&gt;</span></div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">   #include &lt;cppunit/ui/text/TestRunner.h&gt;</span></div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">   #include &quot;<a class="code" href="segunda__spec_8h.html">test/tdd/Segunda_spec.h</a>&quot;</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">   #include &quot;<a class="code" href="segunda__spec_8h.html">test/tdd/segunda_spec.h</a>&quot;</span></div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">   #include &quot;<a class="code" href="tddprueba__spec_8h.html">test/tdd/tddprueba_spec.h</a>&quot;</span></div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#else</span></div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
@@ -131,7 +132,7 @@ $(document).ready(function(){initNavTree('main_8cpp_source.html','');});
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    cout &lt;&lt; <span class="stringliteral">&quot;Iniciando test...&quot;</span> &lt;&lt; endl;</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    CppUnit::TextUi::TestRunner runner; <span class="comment">/* Crear el objeto de CppUnit que ejecutará las pruebas */</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    runner.addTest(<span class="keyword">new</span> <a class="code" href="classtddprueba__spec.html">tddprueba_spec</a> ());</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    runner.addTest(<span class="keyword">new</span> <a class="code" href="classtddprueba_spec.html">tddpruebaSpec</a> ());</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    runner.addTest(<a class="code" href="class_segunda__spec.html#afce85800fe161d9439d0d581a0777bff">Segunda_spec::suite</a>());</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    runner.run();</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="preprocessor">#else</span></div>
@@ -142,8 +143,8 @@ $(document).ready(function(){initNavTree('main_8cpp_source.html','');});
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;}</div>
 <div class="ttc" id="global_conf_8h_html"><div class="ttname"><a href="global_conf_8h.html">globalConf.h</a></div><div class="ttdoc">Archivo de configuración global del programa. </div></div>
-<div class="ttc" id="classtddprueba__spec_html"><div class="ttname"><a href="classtddprueba__spec.html">tddprueba_spec</a></div><div class="ttdef"><b>Definition:</b> <a href="tddprueba__spec_8h_source.html#l00018">tddprueba_spec.h:18</a></div></div>
 <div class="ttc" id="namespacestd_html"><div class="ttname"><a href="namespacestd.html">std</a></div></div>
+<div class="ttc" id="classtddprueba_spec_html"><div class="ttname"><a href="classtddprueba_spec.html">tddpruebaSpec</a></div><div class="ttdef"><b>Definition:</b> <a href="tddprueba__spec_8h_source.html#l00022">tddprueba_spec.h:22</a></div></div>
 <div class="ttc" id="segunda__spec_8h_html"><div class="ttname"><a href="segunda__spec_8h.html">segunda_spec.h</a></div></div>
 <div class="ttc" id="class_segunda__spec_html_afce85800fe161d9439d0d581a0777bff"><div class="ttname"><a href="class_segunda__spec.html#afce85800fe161d9439d0d581a0777bff">Segunda_spec::suite</a></div><div class="ttdeci">static CppUnit::Test * suite()</div><div class="ttdef"><b>Definition:</b> <a href="segunda__spec_8cpp_source.html#l00017">segunda_spec.cpp:17</a></div></div>
 <div class="ttc" id="tddprueba__spec_8h_html"><div class="ttname"><a href="tddprueba__spec_8h.html">tddprueba_spec.h</a></div><div class="ttdoc">Expectativas para la clase TDDPrueba. </div></div>
@@ -154,7 +155,7 @@ $(document).ready(function(){initNavTree('main_8cpp_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="main_8cpp.html">main.cpp</a></li>
-    <li class="footer">Generado el Miércoles, 19 de Noviembre de 2014 12:03:44 para CPPUnitTesting por
+    <li class="footer">Generado el Miércoles, 19 de Noviembre de 2014 23:27:16 para CPPUnitTesting por
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

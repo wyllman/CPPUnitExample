@@ -46,6 +46,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
       <li><a href="annotated.html"><span>Clases</span></a></li>
       <li class="current"><a href="files.html"><span>Archivos</span></a></li>
       <li>
@@ -107,14 +108,22 @@ $(document).ready(function(){initNavTree('tddprueba__spec_8cpp_source.html','');
 </div><!--header-->
 <div class="contents">
 <a href="tddprueba__spec_8cpp.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="tddprueba__spec_8h.html">test/tdd/tddprueba_spec.h</a>&quot;</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
-<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classtddprueba__spec.html#a543469c700658fa295a614f7c6923057">   14</a></span>&#160;<a class="code" href="classtddprueba__spec.html#a543469c700658fa295a614f7c6923057">tddprueba_spec::tddprueba_spec</a>() {}</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="tddprueba__spec_8h.html">tddprueba_spec.h</a>&quot;</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor"># include &lt;cppunit/extensions/TypeInfoHelper.h&gt;</span></div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keywordtype">void</span> tddprueba_spec::runTest () {</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;   CPPUNIT_ASSERT(<span class="keyword">true</span>);</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;}</div>
-<div class="ttc" id="classtddprueba__spec_html_a543469c700658fa295a614f7c6923057"><div class="ttname"><a href="classtddprueba__spec.html#a543469c700658fa295a614f7c6923057">tddprueba_spec::tddprueba_spec</a></div><div class="ttdeci">tddprueba_spec()</div><div class="ttdef"><b>Definition:</b> <a href="tddprueba__spec_8cpp_source.html#l00014">tddprueba_spec.cpp:14</a></div></div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="classtddprueba_spec.html#ac8be9a3610f3b3af59e7ac02827ab5c9">   19</a></span>&#160;<a class="code" href="classtddprueba_spec.html#ac8be9a3610f3b3af59e7ac02827ab5c9">tddpruebaSpec::tddpruebaSpec</a>() {}</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keywordtype">void</span> tddpruebaSpec::runTest () {</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;   <a class="code" href="class_t_d_d_prueba.html">TDDPrueba</a> prueba;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;   <span class="keywordtype">int</span> resultado = prueba.sumar(2, 2);</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;   CPPUNIT_ASSERT(resultado == 4);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;   CPPUNIT_ASSERT(prueba.ultimoRes == 4);</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;   CPPUNIT_ASSERT_NO_THROW( prueba.<a class="code" href="class_t_d_d_prueba.html#aaa2c3c0342544285627f6b70468f8407">getUltimo</a>() );</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;}</div>
+<div class="ttc" id="classtddprueba_spec_html_ac8be9a3610f3b3af59e7ac02827ab5c9"><div class="ttname"><a href="classtddprueba_spec.html#ac8be9a3610f3b3af59e7ac02827ab5c9">tddpruebaSpec::tddpruebaSpec</a></div><div class="ttdeci">tddpruebaSpec()</div><div class="ttdoc">tddpruebaSpec::tddpruebaSpec ... </div><div class="ttdef"><b>Definition:</b> <a href="tddprueba__spec_8cpp_source.html#l00019">tddprueba_spec.cpp:19</a></div></div>
+<div class="ttc" id="class_t_d_d_prueba_html"><div class="ttname"><a href="class_t_d_d_prueba.html">TDDPrueba</a></div><div class="ttdoc">Clase de prueba para pasar los test. </div><div class="ttdef"><b>Definition:</b> <a href="tddprueba_8h_source.html#l00042">tddprueba.h:42</a></div></div>
+<div class="ttc" id="class_t_d_d_prueba_html_aaa2c3c0342544285627f6b70468f8407"><div class="ttname"><a href="class_t_d_d_prueba.html#aaa2c3c0342544285627f6b70468f8407">TDDPrueba::getUltimo</a></div><div class="ttdeci">int getUltimo()</div><div class="ttdef"><b>Definition:</b> <a href="tddprueba_8h_source.html#l00045">tddprueba.h:45</a></div></div>
 <div class="ttc" id="tddprueba__spec_8h_html"><div class="ttname"><a href="tddprueba__spec_8h.html">tddprueba_spec.h</a></div><div class="ttdoc">Expectativas para la clase TDDPrueba. </div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -122,7 +131,7 @@ $(document).ready(function(){initNavTree('tddprueba__spec_8cpp_source.html','');
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_13e138d54eb8818da29c3992edef070a.html">test</a></li><li class="navelem"><a class="el" href="dir_412646118a3c96d4e03df008b7040ce8.html">tdd</a></li><li class="navelem"><a class="el" href="tddprueba__spec_8cpp.html">tddprueba_spec.cpp</a></li>
-    <li class="footer">Generado el Miércoles, 19 de Noviembre de 2014 12:03:44 para CPPUnitTesting por
+    <li class="footer">Generado el Miércoles, 19 de Noviembre de 2014 23:27:16 para CPPUnitTesting por
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>
