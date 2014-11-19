@@ -23,7 +23,7 @@
    #include <cppunit/TestSuite.h>
    #include <cppunit/Test.h>
    #include <cppunit/ui/text/TestRunner.h>
-   #include "test/tdd/Segunda_spec.h"
+   #include "test/tdd/segunda_spec.h"
    #include "test/tdd/tddprueba_spec.h"
 #else
 
