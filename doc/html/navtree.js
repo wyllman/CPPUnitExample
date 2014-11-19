@@ -1,12 +1,22 @@
 var NAVTREE =
 [
   [ "CPPUnitTesting", "index.html", [
-    [ "Classes", null, [
-      [ "Class List", "annotated.html", "annotated" ],
-      [ "Class Index", "classes.html", null ]
+    [ "Clases", null, [
+      [ "Lista de clases", "annotated.html", "annotated" ],
+      [ "Índice de clases", "classes.html", null ],
+      [ "Jerarquía de la clase", "hierarchy.html", "hierarchy" ],
+      [ "Miembros de las clases", "functions.html", [
+        [ "Todo", "functions.html", null ],
+        [ "Funciones", "functions_func.html", null ]
+      ] ]
     ] ],
-    [ "Files", null, [
-      [ "File List", "files.html", "files" ]
+    [ "Archivos", null, [
+      [ "Lista de archivos", "files.html", "files" ],
+      [ "Miembros de los ficheros", "globals.html", [
+        [ "Todo", "globals.html", null ],
+        [ "Funciones", "globals_func.html", null ],
+        [ "'defines'", "globals_defs.html", null ]
+      ] ]
     ] ]
   ] ]
 ];
@@ -16,8 +26,8 @@ var NAVTREEINDEX =
 "annotated.html"
 ];
 
-var SYNCONMSG = 'click to disable panel synchronisation';
-var SYNCOFFMSG = 'click to enable panel synchronisation';
+var SYNCONMSG = 'click en deshabilitar sincronización';
+var SYNCOFFMSG = 'click en habilitar sincronización';
 var navTreeSubIndices = new Array();
 
 function getData(varName)

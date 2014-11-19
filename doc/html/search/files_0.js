@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['main_2ecpp',['main.cpp',['../main_8cpp.html',1,'']]]
+  ['globalconf_2eh',['globalConf.h',['../global_conf_8h.html',1,'']]]
 ];
