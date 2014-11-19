@@ -1,4 +1,12 @@
 CPPUnitExample     {#mainpage}
 ==============
 
-TDD example (Using C++ and CppUnit)
+Ejemplo básico del uso de la metodología TDD usando C++ y las librerías
+CppUnit.
+
+Puedes encontrar las librerías CppUnit en: <br>
+http://sourceforge.net/projects/cppunit/
+
+y su documentación en:
+http://cppunit.sourceforge.net/doc/cvs/cppunit_cookbook.html
+

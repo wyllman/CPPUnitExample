@@ -27,3 +27,6 @@ SOURCES += lib/main.cpp\
            test/tdd/segunda_spec.cpp \
 
 unix|win32: LIBS += -lcppunit
+
+OTHER_FILES += \
+    README.md
