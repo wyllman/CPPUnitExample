@@ -29,4 +29,5 @@ SOURCES += lib/main.cpp\
 unix|win32: LIBS += -lcppunit
 
 OTHER_FILES += \
-    README.md
+    README.md \
+    Doxyfile

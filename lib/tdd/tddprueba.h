@@ -1,9 +1,9 @@
 /**
- * @file tddprueba.h
+ * @file    tddprueba.h
  * @author  Wyllman <wyllman@gmail.com>
  * @version 0.0.1
- * @date   Noviembre, 2014
- * @brief Clase básica para poder realizar pruebas.
+ * @date    Noviembre, 2014
+ * @brief   Clase básica para poder realizar pruebas.
  *
  * @section DESCRIPTION
  * @details
@@ -13,7 +13,7 @@
  *
  * Contiene un atributo interno "int ultimoRes" que va
  * a contener el resultado de la última llamada a la
- * función suma.
+ * función suma. Accesible de forma publica con getUltimo()
  *
  * Contiene una función privada "int sumar(int, int)" que
  * retorna el valor de la suma de los dos parámetros
@@ -21,7 +21,8 @@
  *
  * En caso de existir la directiva TESTCHECKING a true se
  * le da acceso a la clase "tddprueba_spec" para acceder
- * a los atributos y métodos privados de esta clase.
+ * a los atributos y métodos privados de esta clase.<br>
+ * "friend class tddprueba_spec;"
  *
  *
  */
