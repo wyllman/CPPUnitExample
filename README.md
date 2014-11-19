@@ -1,4 +1,4 @@
 CPPUnitExample
 ==============
 
-C++ and TDD example (Using CppUnit)
+TDD example (Using C++ and CppUnit)
