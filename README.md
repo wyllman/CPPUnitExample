@@ -3,6 +3,13 @@ CPPUnitExample     {#mainpage}
 
 #### Ejemplo del uso de la metodología TDD usando C++ y las librerías CppUnit.
 
+Descripción de funcionalidades y clases
+---------------
+- Clases:
+  - [TDDPrueba](class_t_d_d_prueba.html): ...
+
+  - [Segunda](class_segunda.html): ...
+
 Librerías CppUnit
 ---------------
 Puedes encontrar las librerías CppUnit en: <br>
