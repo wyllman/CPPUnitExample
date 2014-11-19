@@ -1,4 +1,8 @@
-CPPUnitExample     {#mainpage}
+{#mainpage}
+
+TravisCi: [![Build Status](https://travis-ci.org/wyllman/CPPUnitExample.svg?branch=master)](https://travis-ci.org/wyllman/CPPUnitExample)
+
+CPPUnitExample
 ==============
 
 #### Ejemplo del uso de la metodología TDD usando C++ y las librerías CppUnit.
