@@ -25,20 +25,20 @@ http://cppunit.sourceforge.net/doc/cvs/cppunit_cookbook.html
 
 comando instalación en entornos linux:<br>
 
-   sudo apt-get install libcppunit-dev
+    sudo apt-get install libcppunit-dev
 
 Compilación usando QT (Sin el uso de Qt Creator)
 ------------------------------------------------
 
 Instalación del compilador en entornos linux:<br>
 
-   sudo apt-get install libqt4-dev
+    sudo apt-get install libqt4-dev
 
 Compilación del proyecto .pro: <br>
 
-   qmake -project
-   qmake CPPUnitTesting.pro
-   make
+    qmake -project
+    qmake CPPUnitTesting.pro
+    make
 
 Contenidos adicionales
 ----------------------
