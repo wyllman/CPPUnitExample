@@ -1,4 +1,4 @@
-#include "test/tddprueba_spec.h"
+#include "test/tdd/tddprueba_spec.h"
 
 tddprueba_spec::tddprueba_spec() {}
 

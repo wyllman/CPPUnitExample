@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['segunda',['Segunda',['../class_segunda.html',1,'']]]
+  ['tddprueba',['TDDPrueba',['../class_t_d_d_prueba.html',1,'']]]
 ];

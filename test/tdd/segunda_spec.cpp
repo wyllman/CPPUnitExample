@@ -1,4 +1,4 @@
-#include "test/segunda_spec.h"
+#include "test/tdd/segunda_spec.h"
 
 Segunda_spec::Segunda_spec() {
 }

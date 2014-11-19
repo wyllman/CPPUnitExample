@@ -1,4 +1,4 @@
-#include "lib/tddprueba.h"
+#include "lib/tdd/tddprueba.h"
 
 TDDPrueba::TDDPrueba() {
 }

@@ -2,7 +2,7 @@
 #define TDDPRUEBA_H
 
 #if TESTCHECKING
-   #include "../test/tddprueba_spec.h"
+   #include "../test/tdd/tddprueba_spec.h"
 #endif
 
 class TDDPrueba {

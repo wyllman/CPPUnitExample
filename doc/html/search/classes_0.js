@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['otramas',['OtraMas',['../class_otra_mas.html',1,'']]]
+  ['segunda',['Segunda',['../class_segunda.html',1,'']]]
 ];
