@@ -1,6 +1,7 @@
 var NAVTREE =
 [
   [ "CPPUnitTesting", "index.html", [
+    [ "CPPUnitExample", "index.html", null ],
     [ "Clases", null, [
       [ "Lista de clases", "annotated.html", "annotated" ],
       [ "Índice de clases", "classes.html", null ],

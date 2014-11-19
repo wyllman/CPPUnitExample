@@ -11,7 +11,7 @@ Ejemplo T\+D\+D para c++.
 \begin{DoxyCompactItemize}
 \item 
 int {\bf main} (int argc, char $\ast$argv[$\,$])
-\begin{DoxyCompactList}\small\item\em main \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em main Ejecución principal del programa \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsection{Descripción detallada}
@@ -51,17 +51,17 @@ Definición en el archivo {\bf main.\+cpp}.
 )}\label{main_8cpp_a0ddf1224851353fc92bfbff6f499fa97}
 
 
-main 
+main Ejecución principal del programa 
 
 
 \begin{DoxyParams}{Parámetros}
-{\em argc} & \\
+{\em argc} & Número de argumtentos. \\
 \hline
-{\em argv} & \\
+{\em argv} & Array de argumentos. \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Devuelve}
-
+0 
 \end{DoxyReturn}
 
 
@@ -76,7 +76,7 @@ Definición en la línea 42 del archivo main.\+cpp.
 46     cout << \textcolor{stringliteral}{"Modo testeo activado."} << endl;
 47     cout << \textcolor{stringliteral}{"Iniciando test..."} << endl;
 48 
-49     CppUnit::TextUi::TestRunner runner; \textcolor{comment}{/*** Crear el objeto de CppUnit que ejecutará las pruebas */}
+49     CppUnit::TextUi::TestRunner runner; \textcolor{comment}{/* Crear el objeto de CppUnit que ejecutará las pruebas */}
 50     runner.addTest(\textcolor{keyword}{new} tddprueba_spec ());
 51     runner.addTest(Segunda_spec::suite());
 52     runner.run();

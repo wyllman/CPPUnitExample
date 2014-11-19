@@ -34,10 +34,10 @@
 using namespace std;
 
 /**
- * @brief main
- * @param argc
- * @param argv
- * @return
+ * @brief main Ejecución principal del programa
+ * @param argc Número de argumtentos.
+ * @param argv Array de argumentos.
+ * @return 0
  */
 int main(int argc, char *argv[]) {
     cout << "Iniciando el ejemplo de TDD..." << endl;
@@ -46,7 +46,7 @@ int main(int argc, char *argv[]) {
     cout << "Modo testeo activado." << endl;
     cout << "Iniciando test..." << endl;
 
-    CppUnit::TextUi::TestRunner runner; /*** Crear el objeto de CppUnit que ejecutará las pruebas */
+    CppUnit::TextUi::TestRunner runner; /* Crear el objeto de CppUnit que ejecutará las pruebas */
     runner.addTest(new tddprueba_spec ());
     runner.addTest(Segunda_spec::suite());
     runner.run();
