@@ -6,6 +6,6 @@ var dir_412646118a3c96d4e03df008b7040ce8 =
     ] ],
     [ "tddprueba_spec.cpp", "tddprueba__spec_8cpp.html", null ],
     [ "tddprueba_spec.h", "tddprueba__spec_8h.html", [
-      [ "tddprueba_spec", "classtddprueba__spec.html", "classtddprueba__spec" ]
+      [ "tddpruebaSpec", "classtddprueba_spec.html", "classtddprueba_spec" ]
     ] ]
 ];
