@@ -3,7 +3,7 @@
  * @author  Wyllman <wyllman@gmail.com>
  * @version 0.0.1
  * @date    Noviembre, 2014
- * @brief   Clase básica para poder realizar pruebas.
+ * @brief   Código fuente de la clase TDDPrueba. Clase básica para poder realizar pruebas.
  *
  * @section DESCRIPTION
  * @details

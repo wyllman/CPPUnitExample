@@ -46,7 +46,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Página&#160;principal</span></a></li>
-      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
       <li><a href="annotated.html"><span>Clases</span></a></li>
       <li class="current"><a href="files.html"><span>Archivos</span></a></li>
       <li>
@@ -107,62 +106,65 @@ $(document).ready(function(){initNavTree('_r_e_a_d_m_e_8md.html','');});
 <div class="title">README.md</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="_r_e_a_d_m_e_8md.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;{#mainpage}</div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;TravisCi: [![Build Status](https://travis-ci.org/wyllman/CPPUnitExample.svg?branch=master)](https://travis-ci.org/wyllman/CPPUnitExample)</div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;#CPPUnitExample</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;==============</div>
+<a href="_r_e_a_d_m_e_8md.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;CPPUnitExample  {#mainpage}</div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;==============</div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;TravisCi: [![Build Status](https://travis-ci.org/wyllman/CPPUnitExample.svg?branch=master)](https://travis-ci.org/wyllman/CPPUnitExample)</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;#### Ejemplo del uso de la metodología TDD usando C++ y las librerías CppUnit.</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;#### Ejemplo del uso de la metodología TDD usando C++ y las librerías CppUnit.</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;##Descripción de funcionalidades y clases</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;---------------</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;- Clases:</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;  - [TDDPrueba](http://wyllman.github.io/CPPUnitExample/doc/html/class_t_d_d_prueba.html): ...</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;Descripción de funcionalidades y clases</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;---------------</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;- Uso de CPPUnit:</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;  - [tddpruebaSpec](http://wyllman.github.io/CPPUnitExample/doc/html/tddprueba__spec_8h.html): Define un caso de uso o prueba. Se sobreescribe la función (heredada de CppUnit::TestCase) &quot;void runTest()&quot;.</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;  - [Segunda_spec](http://wyllman.github.io/CPPUnitExample/doc/html/segunda__spec_8h.html): Define un conjunto de casos de uso o pruebas. Se utiliza una función estática que crea y retorna un objeto de tipo CppUnit::Test. Este objeto contiene el conjunto de pruebas. Ofrece mayor control y versatilidad que el caso anterior.</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;  - [Segunda](http://wyllman.github.io/CPPUnitExample/doc/html/class_segunda.html): ...</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;##Librerías CppUnit</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;---------------</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;- Clases:</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;  - [TDDPrueba](http://wyllman.github.io/CPPUnitExample/doc/html/class_t_d_d_prueba.html): ...</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;  - [Segunda](http://wyllman.github.io/CPPUnitExample/doc/html/class_segunda.html): ...</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;Puedes encontrar las librerías CppUnit en: &lt;br&gt;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;http://sourceforge.net/projects/cppunit/</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;Librerías CppUnit</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;---------------</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;y su documentación en: &lt;br&gt;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;http://cppunit.sourceforge.net/doc/cvs/cppunit_cookbook.html</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;Puedes encontrar las librerías CppUnit en: &lt;br&gt;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;http://sourceforge.net/projects/cppunit/</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;comando instalación en entornos linux:&lt;br&gt;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    sudo apt-get install libcppunit-dev</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;##Compilación usando QT (Sin el uso de Qt Creator)</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;------------------------------------------------</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;y su documentación en: &lt;br&gt;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;http://cppunit.sourceforge.net/doc/cvs/cppunit_cookbook.html</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;comando instalación en entornos linux:&lt;br&gt;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    sudo apt-get install libcppunit-dev</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;Instalación del compilador en entornos linux:&lt;br&gt;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    sudo apt-get install libqt4-dev</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;Compilación del proyecto .pro: &lt;br&gt;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    qmake -project</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    qmake CPPUnitTesting.pro</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    make</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;##Contenidos adicionales</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;----------------------</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;Archivo de configuración [CPPUnitTesting.pro](https://github.com/wyllman/CPPUnitExample/blob/master/CPPUnitTesting.pro)del proyecto para [Qt Creator](https://qt-project.org/) &quot;CPPUnitTesting.pro&quot; &lt;br&gt;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;Archivo de configuración [Doxyfile](https://github.com/wyllman/CPPUnitExample/blob/master/Doxyfile)para la generación automática de documentación usando [DoxyGen](http://www.doxygen.org/) &lt;br&gt;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;Archivo adicional de configuración [lib/globalConf.h](http://wyllman.github.io/CPPUnitExample/doc/html/global_conf_8h.html) de atributos globales del proyecto &lt;br&gt;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;Documentación generada por DoxyGen(html) en la carpeta: [doc/html/index.html](http://wyllman.github.io/CPPUnitExample/doc/html/index.html)&lt;br&gt;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;Integración con Travis Ci usando el archivo [.travis.yml](https://github.com/wyllman/CPPUnitExample/blob/master/.travis.yml)</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;Compilación usando QT (Sin el uso de Qt Creator)</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;------------------------------------------------</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;Instalación del compilador en entornos linux:&lt;br&gt;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    sudo apt-get install libqt4-dev</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;Compilación del proyecto .pro: &lt;br&gt;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    qmake -project</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    qmake CPPUnitTesting.pro</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    make</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;Contenidos adicionales</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;----------------------</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;Archivo de configuración [CPPUnitTesting.pro](https://github.com/wyllman/CPPUnitExample/blob/master/CPPUnitTesting.pro)del proyecto para [Qt Creator](https://qt-project.org/) &quot;CPPUnitTesting.pro&quot; &lt;br&gt;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;Archivo de configuración [Doxyfile](https://github.com/wyllman/CPPUnitExample/blob/master/Doxyfile)para la generación automática de documentación usando [DoxyGen](http://www.doxygen.org/) &lt;br&gt;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;Archivo adicional de configuración [lib/globalConf.h](http://wyllman.github.io/CPPUnitExample/doc/html/global_conf_8h.html) de atributos globales del proyecto &lt;br&gt;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;Documentación generada por DoxyGen(html) en la carpeta: [doc/html/index.html](http://wyllman.github.io/CPPUnitExample/doc/html/index.html)&lt;br&gt;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;Integración con Travis Ci usando el archivo [.travis.yml](https://github.com/wyllman/CPPUnitExample/blob/master/.travis.yml)</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="_r_e_a_d_m_e_8md.html">README.md</a></li>
-    <li class="footer">Generado el Miércoles, 19 de Noviembre de 2014 23:27:16 para CPPUnitTesting por
+    <li class="footer">Generado el Jueves, 20 de Noviembre de 2014 00:07:05 para CPPUnitTesting por
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

@@ -8,6 +8,12 @@
  * @section DESCRIPTION
  * @details
  *
+ * Contiene la clase tddpruebaSpec que hereda de
+ * CppUnit::TestCase. En este caso se usa como un
+ * caso de prueba, poniendo los asertos en la función
+ * sobreescrita "void runTest ()" propia de la clase
+ * TestCase.
+ *
  */
 #ifndef TDDPRUEBA_SPEC_H
 #define TDDPRUEBA_SPEC_H
